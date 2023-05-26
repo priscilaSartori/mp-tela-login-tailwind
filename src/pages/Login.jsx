@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import CeuEstrelado from '../images/image.png';
+import CeuEstrelado from '../images/CeuEstrelado.png';
 import Ellipse from '../images/Ellipse.png';
 import { useNavigate } from 'react-router-dom';
 
