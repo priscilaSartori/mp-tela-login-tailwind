@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react';
 import Ellipse from '../images/Ellipse.png';
 import { useNavigate } from 'react-router-dom';
+import CeuEstrelado from '../images/CeuEstrelado.png';
 
 export default function Redefinir() {
   const [email, setEmail] = useState('');
@@ -18,6 +19,9 @@ export default function Redefinir() {
   return (
     <div className={`flex flex-row items-center justify-center p-24 bg-contain bg-gradient-to-r from-zinc-950 to-zinc-900`}>
       <div className={`flex flex-row justify-center items-center space-y-8 bg-black overflow-hidden rounded-3xl p-9 m-12`}>
+        <div className={`flex justify-center items-center bg-black overflow-hidden`}>
+          <img src={CeuEstrelado} className={`relative top-0 opacity-20 object-cover overflow-hidden`} width={406} height={454} alt="text" />
+        </div>
         <div className={`flex flex-col justify-center items-center m-10`}>
           <div className={`flex flex-row`}>
             <h1 className={`text-3xl font-black text-white `}>Redefinir senha</h1>
